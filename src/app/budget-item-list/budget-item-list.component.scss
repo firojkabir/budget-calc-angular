@@ -14,7 +14,7 @@
     width: 100%;
 
     .income-column,
-    .expenses-column {
+    .expense-column {
       display: flex;
       flex-direction: column;
       flex-basis: 0; // for the columns to be the same size, regardless of content
@@ -26,6 +26,13 @@
       font-size: 24px;
       font-weight: 900;
       text-transform: uppercase;
+    }
+
+    .budget-items {
+      display: flex;
+      flex-direction: column;
+
+      margin-top: 20px;
     }
 
     .income-column {
